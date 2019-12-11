@@ -1,0 +1,79 @@
+=== Inventory of Package:
+METADATA TYPE                                     COUNT
+────────────────────────────────────────────────  ─────
+Permission Sets                                   0
+Custom Metadata                                   0
+Feature Parameters (Boolean)                      0
+Feature Parameters (Date)                         0
+Feature Parameters (Integer)                      0
+Custom Settings                                   0
+Custom Labels                                     0
+Tabs                                              0
+Flows                                             0
+Apex Classes                                      0
+Custom Reports                                    0
+Custom Report Types                               0
+Custom Apps                                       1
+  Lighting Applications                           1
+   Lighting Consoles                              0
+  Classic Applications                            0
+   Classic Consoles                               0
+Connected Apps                                    0
+In-App Prompts                                    0
+Static Resources                                  0
+Sharing Rules                                     0
+Validation Rules                                  0
+Custom Objects                                    2
+  Big Objects                                     0
+  External Objects                                0
+Custom Fields                                     38
+  Total Fields on Standard Objects                31
+   Fields on Account                              31
+  Total Fields on Custom Objects                  7
+   Fields on telearndaypkg__Financial_Account__c  7
+Platform Events                                   0
+Territory Management                              0
+Territory Management 2.0                          0
+Visualforce Pages                                 0
+Aura Web Components                               1
+Lightning Web Components                          0
+Einstein Analytics Applications                   0
+Einstein Analytics Dashboards                     0
+Einstein Analytics Dataflows                      0
+Einstein Analytics Datasets                       0
+Einstein Analytics Lenses                         0
+Einstein Analytics Template Bundles               0
+Einstein Analytics Dashboards                     0
+Person Accounts Enabled?                          0
+Record Types                                      0
+
+
+=== Best Practices and Feature Recommendations:
+Learn about migrating from Aura Web Components to Lightning Web Components:
+Lightning Web Components are the new Salesforce standard for Lightning Components featuring easier devlopment, better performance and standards compliance. For a decision matrix on whether you should be considering migrating to LWC see this blog.
+URL:https://medium.com/inside-the-salesforce-ecosystem/lightning-web-components-an-isv-partner-digest-59d9191f3248
+
+
+
+=== Quality Rules:
+Custom Objects should have a description:
+It is a best practice that Custom Objects have a description.
+Components: telearndaypkg__Financial_Account__c
+
+Custom Fields should have a description:
+It is a best practice that Custom Fields have a description.
+Components: Account.AccountNumber, Account.AccountSource, Account.AnnualRevenue, Account.BillingAddress, Account.CleanStatus, Account.DandbCompanyId, Account.Description, Account.DunsNumber, Account.Fax, Account.Industry, Account.Jigsaw, Account.NaicsCode, Account.NaicsDesc, Account.Name, Account.NumberOfEmployees, Account.OperatingHoursId, Account.OwnerId, Account.Ownership, Account.ParentId, Account.Phone, Account.Rating, Account.ShippingAddress, Account.Sic, Account.SicDesc, Account.Site, Account.TickerSymbol, Account.Tradestyle, Account.Type, Account.Website, Account.YearStarted, Account.telearndaypkg__Credit_Rating__c, telearndaypkg__Financial_Account__c.telearndaypkg__Account_Number__c, telearndaypkg__Financial_Account__c.telearndaypkg__Account__c, telearndaypkg__Financial_Account__c.telearndaypkg__Current_Limit__c, telearndaypkg__Financial_Account__c.telearndaypkg__Description__c, telearndaypkg__Financial_Account__c.telearndaypkg__Expiration_Month__c, telearndaypkg__Financial_Account__c.telearndaypkg__Expiration_Year__c, telearndaypkg__Financial_Account__c.telearndaypkg__Type__c
+
+=== Partner Alerts:
+Sign up here to be notified of all Partner Alerts: 
+URL:https://partners.salesforce.com/partnerAlert?id=a033A00000FtFWqQAN
+
+=== Installation Warnings:
+Package cannot be installed in Essentials due to:
+  Custom Profiles count (1) is greater than the edition limit (0)
+
+
+Package cannot be installed in Group Edition due to:
+  Custom Profiles count (1) is greater than the edition limit (0)
+
+
